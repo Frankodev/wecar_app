@@ -1,0 +1,246 @@
+/** @format */
+
+:root {
+  --primario: #5b7fff;
+  --secundario: #51b9a3;
+  --terciario: ;
+  --logo: "Raleway", sans-serif;
+  --color_logo: #51b9a3;
+  --font_famili: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  min-height: 650px;
+  padding: 0;
+}
+
+.contenedor:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50vw;
+  height: 100vh;
+  background-color: #51b9a3b0;
+  background-size: cover;
+  z-index: 1;
+  filter: blur(50rem);
+}
+
+.login {
+  width: 100%;
+  height: 100vh;
+  min-height: 650px;
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+
+.izquierda {
+  height: 100vh;
+  min-height: 650px;
+  width: 100%;
+  margin-top: 0;
+  background: url(../img/auto.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  font-size: 5.8rem;
+  font-family: var(--logo);
+  color: var(--color_logo);
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.izquierda h5 {
+  font-family: Poppins;
+  font-size: 1.8rem;
+  color: white;
+  margin-top: 5%;
+}
+
+.center_izq {
+  margin-top: 16%;
+}
+
+.logear {
+  display: inline-flex;
+  background-color: rgba(255, 255, 255, 35%);
+  border-radius: 8px;
+  height: 45px;
+  width: 190px;
+  margin: 3% 1%;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.iconify_google {
+  background: url("https://api.iconify.design/flat-color-icons/google.svg")
+    no-repeat center center / contain;
+  content: url("https://api.iconify.design/flat-color-icons/google.svg");
+  width: 25px;
+  height: 25px;
+  margin: auto;
+}
+
+.iconify_apple {
+  background: url("https://api.iconify.design/foundation/social-apple.svg?color=%23ccc")
+    no-repeat center center / contain;
+  content: url("https://api.iconify.design/foundation/social-apple.svg?color=%23ccc");
+  width: 25px;
+  height: 25px;
+  margin: auto;
+}
+
+.logear:hover {
+  background-color: rgba(255, 255, 255, 55%);
+  color: #000;
+}
+
+.logear h6 {
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: auto;
+}
+
+#bienvenido {
+  color: rgb(255, 255, 255, 69%);
+  font-size: 26px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.derecha {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 100vh;
+  min-height: 650px;
+  width: 100%;
+  padding: 20% 12% 5%;
+}
+
+h2 {
+  color: var(--primario);
+  text-align: center;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 2px;
+  width: 80px;
+  border-radius: 2px;
+  background-color: var(--primario);
+}
+
+.campo {
+  width: 100%;
+  height: 48px;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: rgb(230, 230, 230, 0.6);
+  font-size: 1.1rem;
+  margin-top: 22px;
+  margin-bottom: 2px;
+  transition: 0.3s;
+  border-radius: 3px;
+}
+
+#olvidaste_contraseña {
+  color: var(--secundario);
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: row-reverse;
+  text-decoration: none;
+}
+
+#olvidaste_contraseña a {
+  color: var(--secundario);
+  text-decoration: none;
+}
+
+.btn {
+  margin: 35px auto 25px;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  font-size: 1.1rem;
+  background-color: var(--primario);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: white;
+  transition: 0.3s;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: #5b7fffa6;
+}
+
+#registro {
+  font-size: 1rem;
+  display: inline-flex;
+  justify-content: center;
+}
+
+#registro a {
+  color: var(--secundario);
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.copyfooter {
+  margin-top: auto;
+  margin-bottom: 0;
+  font-size: 0.6rem;
+  color: #5b7fff;
+  cursor: pointer;
+}
+
+.link_page {
+  font-size: 0.8rem;
+  color: var(--color_logo);
+}
+
+.link_page:hover {
+  color: var(--primario);
+}

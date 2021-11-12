@@ -1,0 +1,212 @@
+/** @format*/
+
+:root {
+  --primario: #5b7fff;
+  --secundario: #51b9a3;
+  --terciario: ;
+  --logo: "Raleway", sans-serif;
+  --color_logo: #51b9a3;
+  --font_famili: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Break point 960px */
+@media screen and (max-width: 960px) {
+  .contenedor {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .contenedor:after {
+    width: 100vw;
+    height: 425px;
+    filter: blur(20rem);
+  }
+
+  .login {
+    height: 100%;
+    grid-template-columns: 1fr;
+    margin-top: 0;
+  }
+
+  .izquierda {
+    height: 425px;
+    min-height: auto;
+    margin-top: 0;
+    background: url(../img/auto.jpg) no-repeat center;
+    background-size: cover;
+  }
+
+  .center_izq {
+    margin: 10% 0 2%;
+  }
+
+  .logo {
+    font-size: 6.2rem;
+    font-family: var(--logo);
+    color: var(--color_logo);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    filter: none;
+  }
+
+  .izquierda h5 {
+    font-family: Poppins;
+    font-size: 1.6rem;
+    color: white;
+    margin-top: 1%;
+  }
+
+  #bienvenido {
+    color: rgb(255, 255, 255, 69%);
+    font-size: 22px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+  .logear {
+    display: inline-flex;
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 8px;
+    height: 35px;
+    width: 150px;
+    margin: 3% 1%;
+    cursor: pointer;
+  }
+
+  .logear:hover {
+    background-color: rgba(255, 255, 255, 55%);
+  }
+
+  .logear h6 {
+    color: rgba(14, 13, 13, 0.705);
+    font-size: 0.6rem;
+    margin: auto;
+    font-weight: bold;
+  }
+
+  .iconify_apple {
+    background: url("https://api.iconify.design/foundation/social-apple.svg?color=%23858181ec")
+      no-repeat center center / contain;
+    content: url("https://api.iconify.design/foundation/social-apple.svg?color=%23858181ec");
+    width: 25px;
+    height: 25px;
+    margin: auto;
+  }
+
+  .derecha {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 20px 60px 5%;
+  }
+
+  .copyfooter {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 0.6rem;
+    color: #5b7fff;
+    margin-top: auto;
+    margin-bottom: 0;
+  }
+
+  .link_page {
+    font-size: 0.8rem;
+    color: var(--color_logo);
+  }
+
+  .link_page:hover {
+    color: var(--primario);
+  }
+}
+
+/* Break point 820px */
+@media screen and (max-width: 820px) {
+  .derecha {
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 20px 60px 5%;
+  }
+}
+
+/* Break point 640px */
+@media screen and (max-width: 640px) {
+  .contenedor:after {
+    width: 100vw;
+    height: 330px;
+    filter: blur(20rem);
+  }
+
+  .izquierda {
+    height: 330px;
+    min-height: auto;
+    margin-top: 0;
+    background: url(../img/auto.jpg) no-repeat center;
+    background-size: cover;
+  }
+
+  .center_izq {
+    margin: 14% 0 2%;
+  }
+
+  .logo {
+    font-size: 5.2rem;
+    font-family: var(--logo);
+    color: var(--color_logo);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 25px;
+    filter: none;
+  }
+
+  .logo h1 {
+    font-size: 5.2rem;
+  }
+
+  .izquierda h5 {
+    font-family: Poppins;
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 5%;
+  }
+
+  #bienvenido {
+    color: rgb(255, 255, 255, 69%);
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+  .derecha {
+    background-color: #fff;
+    height: 100%;
+    min-height: 500px;
+    width: 100%;
+    padding: 25px 40px 5%;
+  }
+}
+
+/* Break point 320px */
+@media only screen and (max-width: 320px) {
+  .logear {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem auto;
+  }
+
+  #registro {
+    font-size: 0.8rem;
+  }
+}

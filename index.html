@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wecar App</title>
+
+   <!-- "favicon" icon of the page -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png" />
+
+    <!-- icon for apple ios -->
+    <link rel="apple-touch-icon" href="./img/favicon.png" />
+
+    <!-- icon for android cel -->
+    <link rel="manifest" href="manifest.webmanifest" />
+
+  <!-- CSS -->
+  <link href="./styles/styles.css" rel="stylesheet">
+  <link href="./styles/medias.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+  <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
+    <!-- Etiqueta meta descripción -->
+    <meta
+      name="description"
+      content="wecar es una plataforma para comprar y vender autos seminuevos entre particulares, wecar brinda a sus usuarios la confianza y seguridad de la transacción ya que funge como intermediario en la evaluación de la unidad a vender tanto mecanica como legal, asi mismo funge como intermediario en el pago y liquidación de la unidad en cuestión, esto garantiza seguridad y confianza en ambas partes tanto para el comprador como al vendedor."
+    />
+</head>
+
+<body> 
+    <main class="contenedor">
+      <div class="login">
+
+        <section class="izquierda">
+          <div class="center_izq">
+            <div class="logo">
+              <h1>Wecar</h1>
+            </div>
+            <h5><b>Inicia sesión</b></h5>
+            <p id="bienvenido">Hola Bienvenido(a)</p>
+          </div>
+          <a class="logear" href="#">
+            <span class="iconify_google" data-icon="flat-color-icons:google"></span>
+            <h6>Inicia sesión con Google</h6>
+          </a>
+          <a class="logear" href="#">
+            <span class="iconify_apple" data-icon="foundation:social-apple"></span>
+            <h6>Inicia sesión con Apple Id</h6>
+          </a>
+        </section>
+
+        <section class="derecha">
+          <h2>Regístrate</h2>
+
+          <form action="">
+             <input id="mail" class="campo" name="mail" placeholder="correo electrónico" type="mail"
+            required="true"></input>
+          <input id="password" class="campo eye" name="password" placeholder="contraseña" type="password"
+            required="true"></input>
+          <a id="olvidaste_contraseña" href="#">Olvidaste tu contraseña?</a>
+          <button class="btn">Iniciar sesión</button>
+          <span id="registro">Todavía no tienes cuenta? <a href="#"><b>Regístrate</b></a></span>
+          </form>
+         
+
+          <div class="copyfooter">
+            <p>© Copyright 2021 <a class="link_page" href="https://webcreativa.mx/"
+                target="_blank">webcreativa</a></p>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+  <script src="./js/jquery.js"></script>
+</body>
+
+</html>
