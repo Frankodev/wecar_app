@@ -59,7 +59,7 @@
   min-height: 650px;
   width: 100%;
   margin-top: 0;
-  background: url(../img/auto.jpg) no-repeat center;
+  background: url(../img/auto_2.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -85,7 +85,7 @@
 }
 
 .center_izq {
-  margin-top: 16%;
+  margin-top: 20%;
   z-index: 10;
   position: relative;
 }
