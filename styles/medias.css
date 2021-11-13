@@ -25,8 +25,9 @@
 
   .contenedor:after {
     width: 100vw;
-    height: 425px;
-    filter: blur(20rem);
+    height: 420px;
+    filter: blur(0.5rem);
+    background-color: rgba(0, 0, 0, 0.448);
   }
 
   .login {
@@ -90,7 +91,7 @@
     color: rgba(14, 13, 13, 0.705);
     font-size: 0.6rem;
     margin: auto;
-    font-weight: bold;
+    font-weight: 400;
   }
 
   .iconify_apple {
@@ -143,8 +144,8 @@
 @media screen and (max-width: 640px) {
   .contenedor:after {
     width: 100vw;
-    height: 330px;
-    filter: blur(20rem);
+    height: 325px;
+    filter: blur(0.5rem);
   }
 
   .izquierda {
