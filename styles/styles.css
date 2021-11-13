@@ -134,6 +134,7 @@ a {
   font-size: 0.8rem;
   font-weight: 800;
   margin: auto;
+  margin-left: 0;
 }
 
 #bienvenido {
@@ -246,6 +247,6 @@ h2:after {
   color: var(--color_logo);
 }
 
-.link_page:hover {
-  color: var(--primario);
+.copyfooter a:visited {
+  color: var(--color_logo);
 }
